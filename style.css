@@ -7,16 +7,22 @@
 .m_header{
     display: flex;
     justify-content:space-between;
+    align-items: center;
+    margin: 0 200px;
+    
 }
 .m_header h1{
     text-align: center;
 }
 .main_title{
     font-size: 45px;
+    color: black;
 }
+
 
 .m_header ul {
     display: flex;
+    align-items: center;
 }
 .m_header li{
     margin-left: 24px;
@@ -40,6 +46,40 @@
     border: 0;
     font-weight: 700;
     border-radius: 5px;
+  padding: 10px; 
+  align-items: center;
+  text-align: center;   
     
-    
+}
+header{
+    background-color:#FFF8F3;
+    /* background-image: url('images/header_bg.png');
+    background-position: bottom right;
+    background-repeat: no-repeat; */
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:bottom right;
+
+}
+
+/* banner related css */
+.banner{
+    padding: 30px 30px 0px 150px;
+    display:flex;
+    align-items: center;
+}
+.banner img{
+    width: 500px;
+    /* margin-left: 50px; */
+    margin-left: 150px;
+}
+.b_title{
+    font-size: 60px;
+    font-weight: 700;
+}
+.b_gratting{
+    font-size: 40px;
+}
+.b-des{
+    font-size: 20px;
 }
