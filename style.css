@@ -1,17 +1,19 @@
-*{
+/* *{
     margin:0px;
     padding:0px;
     margin-top:10px;
 
-}
+} */
 .m_header{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 .m_header h1{
     text-align: center;
 }
-
+.main_title{
+    font-size: 45px;
+}
 
 .m_header ul {
     display: flex;
@@ -20,19 +22,24 @@
     margin-left: 24px;
     list-style:none;
     font-size: 20px;
+    text-align: center;
 
 }
 .logo_color{
-    color:rgb(209, 77, 11);
+    color:#FD630A;
 }
 .m_header li a{
     text-decoration: none;
+    text-align: center;
 }
 
 .btn_primary{
     font-size: 20px;
     color:white;
-    background-color: brown;
-    padding:2px;
-    margin:10px;
+    background-color: #FD630A;
+    border: 0;
+    font-weight: 700;
+    border-radius: 5px;
+    
+    
 }
